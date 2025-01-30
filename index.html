@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color: blanchedalmond;">
+        <center>
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(199, 199, 145);"> Multiply  Every number in Array</h1>
+            <p id="result"></p>
+            <script>
+                 var number = [ 3456373, 256373, 3345, 55669];
+
+                  function myFunction(num) {
+                    return num * 5;
+            
+                  }
+                var newarray = number.map(myFunction);
+                document.getElementById("result").innerHTML = newarray;
+            </script>
+
+        </center>
+    </body>
+</html>
